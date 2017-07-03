@@ -1,0 +1,12 @@
+// VS Code - editor settings
+{
+    "files.exclude": {
+        ".vscode": true,
+        "**/*.js": { "when": "$(basename).ts" },
+        "**/*.d.ts": { "when": "$(basename)" },
+        "**/*.js.map": { "when": "$(basename)" },
+        "**/node_modules": true,
+        "**/dist": true
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib"
+}
